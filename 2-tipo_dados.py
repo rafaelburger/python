@@ -16,12 +16,15 @@ print(type(nome))
 valor = 10
 print(type(valor))
 
-# float: valor flutuante, decimal
+# float: valor flutuante, decimal, sendo seus separadores não ',' e sim '.'
 valor2 = 1.5
 print(type(valor2))
 
 # boolean: sempre escreve True and False, com as inicias maiúsculas
 
 
-# Converter tipos de dados: 
-
+# Converter tipos de dados: cast
+int(input()) # Converte a entrada de dados do tipo string em um valor do tipo inteiro
+float(input()) # O mesmo só que em valor do tipo float
+float(int()) # Converte float em int, lembrando que esse método pode deixar o resultado impreciso
+int(float()) # Converte int em float, lembrando que esse método pode deixar o resultado impreciso
