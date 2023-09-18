@@ -4,6 +4,13 @@ Algumas dicas e truques em python
     
 """
 
+# função dir(): apresenta atributos, métodos e funções de uma variável ou tipo de dado
+nome='Rafael'
+dir(nome)
+
+# função help(): mostra o manual do comando
+help(print)
+
 # Caso você queira um valor inteiro em uma divisão:
 '5//2 ou int(5/2) = 2'
 
